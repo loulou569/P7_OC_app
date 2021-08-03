@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run P7_API.py
+web: sh setup.sh && streamlit run --server.port $PORT P7_API.py
