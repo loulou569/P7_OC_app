@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run P7_API.py
+web: streamlit run --server.enableCORS false --server.port $PORT app.py
