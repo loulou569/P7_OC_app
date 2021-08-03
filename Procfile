@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run P7_API.py
+worker: sh setup.sh && streamlit run P7_API.py
